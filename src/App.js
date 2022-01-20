@@ -7,6 +7,7 @@ import Contact from './Components/Contact/Contact';
 import Navbar from './Components/Shared/Navbar/Navbar';
 import Footer from './Components/Shared/Footer/Footer';
 import Courses from './Components/Courses/Courses';
+import Login from './Components/Login/Login';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="courses" element={<Courses />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="login" element={<Login />} />
         </Routes>
         <Footer />
       </BrowserRouter>

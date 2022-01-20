@@ -9,22 +9,22 @@ const Contact = () => {
           Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
           gentrify.
             </p>
-           <div class="container pd-5 d-flex justify-content-center">
+           <div className="container pd-5 d-flex justify-content-center">
   <form style={{"width": "70%"}} action="/action_page.php">
-    <label for="fname"><span>First Name</span></label>
+    <label htmlFor="fname"><span>First Name</span></label>
     <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
 
-    <label for="lname">Last Name</label>
+    <label htmlFor="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
 
-    <label for="country">Country</label>
+    <label htmlFor="country">Country</label>
     <select id="country" name="country">
       <option value="australia">Australia</option>
       <option value="canada">Canada</option>
       <option value="usa">USA</option>
     </select>
 
-    <label for="subject">Subject</label>
+    <label htmlFor="subject">Subject</label>
                     <textarea id="subject" name="subject" placeholder="Write something.." style={{ "height": "200px" }}></textarea>
 
     <input type="submit" value="Submit"/>
